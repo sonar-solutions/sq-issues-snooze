@@ -1,6 +1,6 @@
 # SonarQube Issue Snooze Script
 
-This script is designed to be run as a cron job on a server with access to a SonarQube instance. It automates the process of "unsnoozing" SonarQube issues that have been snoozed using tags.
+This script is designed to be run as a cron job on a server with access to a SonarQube instance. It automates the process of reopening accepted SonarQube issues that have been snoozed using tags.
 
 ## Purpose
 
