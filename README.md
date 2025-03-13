@@ -41,6 +41,7 @@ SonarQube issues can be marked "accepted" and tagged with `snooze` or `snooze-{d
 
     * **`snooze` tag:** Tag an issue with `snooze` to snooze it for the default number of days (defined by `DEFAULT_SNOOZE_DAYS` in the `.env` file, which defaults to 30 days).
     * **`snooze-{days}` tag:** Tag an issue with `snooze-XX` (e.g., `snooze-15`, `snooze-90`) to snooze it for a specific number of days.  For example, `snooze-15` will snooze the issue for 15 days.
+    * Ensure you also mark the issue as accepted, this will require the Administer Issues permission on the project.
 
     ![Snooze Issues Tag](snooze-issue-tag.png)
 
