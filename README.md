@@ -9,8 +9,8 @@ SonarQube issues can be marked "accepted" and tagged with `snooze` or `snooze-{d
 ## Prerequisites
 
 * **Python 3.6+**
-* **`requests` library:** You can install it using `pip install requests`
-* **`python-dotenv` library:** You can install it using `pip install python-dotenv`
+* **`requests` library:** 
+* **`python-dotenv` library:** 
 * **SonarQube instance**
 * **SonarQube API token:** You'll need a SonarQube API token with permissions to search issues, view issue changelogs, transition issues, and manage issue tags.
 
